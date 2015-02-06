@@ -60,6 +60,6 @@ Logos are built up as a series of layers each with an increased ```z-index```
 
 Shortcut for common images, like ```nodejs```
 
-Click [here to see a complete list](blob/master/images.json)
+Click [here to see a complete list](images.json)
 
 # License: MIT
