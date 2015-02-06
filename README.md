@@ -1,4 +1,4 @@
-# LogoIt <img src="https://raw.githubusercontent.com/yieme/logoit/master/logo.jpg" align="right">
+# LogoIt <img src="https://raw.githubusercontent.com/yieme/logoit/master/logo.jpg" align="right" height="192" border="0">
 
 Logo Image Builder
 
