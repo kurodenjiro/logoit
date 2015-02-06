@@ -1,0 +1,14 @@
+{
+    "_"         : "# alphabetical order"
+  , "angularjs" : "http://maffrigby.com/wp-content/uploads/2014/07/angularjs-logo-trans.png"
+  , "css3"      : "http://wpguru.co.uk/wp-content/uploads/2013/09/CSS-Logo-214x300.png"
+  , "docker"    : "http://files.incrediblemolk.com/docker.png"
+  , "expressjs" : "http://www.objectfrontier.com/sites/default/files/express.png"
+  , "firebase"  : "https://pbs.twimg.com/profile_images/1974595305/firebase_branding_r4_FINAL_03.png"
+  , "html5"     : "http://www.w3.org/html/logo/downloads/HTML5_Logo_512.png"
+  , "iojs"      : "https://iojs.org/images/1.0.0.png"
+  , "js"        : "https://tomasmcm.github.io/9455413519_javascript.png"
+  , "golang"    : "https://golang.org/doc/gopher/gopherbw.png"
+  , "nodejs"    : "https://node-os.com/images/nodejs.png"
+  , "senecajs"  : "https://pbs.twimg.com/profile_images/2651515910/28195105b41aa4241555b7fb49b6b219.png"
+}

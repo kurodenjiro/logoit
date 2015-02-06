@@ -30,8 +30,11 @@
   "dependencies": {
     "convar": "^1.1.2",
     "express": "^4.11.2",
+    "font-awesome": "^4.3.0",
     "hogan.js": "^3.0.2",
+    "lodash": "^3.1.0",
     "nightmare": "^1.7.0",
-    "nightmare-screenshot": "0.0.1"
+    "nightmare-screenshot": "0.0.1",
+    "phantomjs": "1.9.1-9"
   }
 }
