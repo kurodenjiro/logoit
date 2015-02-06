@@ -48,19 +48,18 @@ Logos are built up as a series of layers each with an increased ```z-index```
 - ```flag:<country_code>```: Add [Flag Icon](https://lipis.github.io/flag-icon-css/) to layer
 - ```md:<name>```: Add [Material Design Icon](https://zavoloklom.github.io/material-design-iconic-font/icons.html) to layer
 - ```gf:<name>```: Select [Google Font](https://www.google.com/fonts). Case sensitive, ex: ```Logster```
+- ```i:<img_src>```: Add image. Ex: ```i:http://domain.com/sample.png```
 
 ### f:shorthand
 
 - ```b```: ```fw:bold```
 - ```i```: ```fs:italic```
 
-## Future
-
-- ```i:<img_src>```: Add image (path without https://). Ex: ```i:domain.com/img/sample.png```
-- ```h:<img_src>```: Add image (path without http://). Ex: ```h:domain.com/img/sample.png```
 
 ## Common Images
 
-- ```nodejs```:
+Shortcut for common images, like ```nodejs```
+
+Click [here to see a complete list](blob/master/images.json)
 
 # License: MIT
