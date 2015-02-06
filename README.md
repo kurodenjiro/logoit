@@ -12,7 +12,7 @@ npm install logoit --save
 
 Logos are built up as a series of layers each with an increased ```z-index```
 
-```domain/[pixels/]layer/layer2/.../layerN[.format]```
+domain/[pixels/]layer/layer2/.../layerN[.format]
 
 - ```pixels```: size in pixels, default 256. Same as: width:<pixels>px; height:<pixels>px
 - ```layer```: layer details
