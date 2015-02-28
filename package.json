@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jshint --config .jshintrc . && mocha -R list test/*.js",
-    "run": "node .",
+    "serve": "node server.js",
     "dbuild": "npm prune --production; docker build -t yieme/logo.img .",
     "drun": "export PORT=$(pkg app.port); docker run -p ${PORT}:3000 --rm --name logo.img yieme/logo.img; docker ps -a"
   },
