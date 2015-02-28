@@ -4,8 +4,14 @@ Logo Image Builder
 
 # Install
 
-```js
+```sh
 npm install logoit --save
+```
+
+# Run server
+
+```sh
+npm run-script serve
 ```
 
 # Usage
