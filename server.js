@@ -2,7 +2,7 @@
 // Basic js
 'use strict';
 
-var logoImg  = require('../index')
+var logoImg  = require('./index')
   , express  = require('express')
   , app      = express()
   , convar   = require('convar')
