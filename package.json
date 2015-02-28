@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://yieme@github.com/yieme/logo.img.git"
+    "url": "https://yieme@github.com/yieme/logoit.git"
   },
   "author": "yieme",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yieme/logo.img/issues"
+    "url": "https://github.com/yieme/logoit/issues"
   },
   "app": {
     "port": 3000
