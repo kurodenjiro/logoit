@@ -56,6 +56,10 @@
     ;
 
     if (!isImage) {
+      if (next) {
+        next()
+        return
+      }
       part = INVALID_IMG.split(SEPERATOR)
       console.log('invalid image', req.url)
     }
