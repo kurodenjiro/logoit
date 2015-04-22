@@ -24,6 +24,16 @@ Logos are built up as a series of layers each with an increased ```z-index```
 - ```layer```: layer details
 - ```format```: currently only ```.png``` is supported
 
+## Example
+
+<img src="https://raw.githubusercontent.com/yieme/logoit/master/logo.jpg" align="right" height="64" border="0">
+
+LogoIt
+
+```
+http://localhost:3000/b:yellow&&gf:Lobster&&f:b&&mc:100&&o:0.3&&p:0&&i:nodejs&&tc:50&&o:1&&p:5&&fa:photo&&bc:35&&p:10&&LogoIt&&/logoit.png
+```
+
 ## Options
 
 - ```l:<language>```: Set languge. default: ```l:en```
@@ -48,7 +58,7 @@ Logos are built up as a series of layers each with an increased ```z-index```
 - ```br[:percent]```: New Bottom Right layer, optional size percentage
 - ```t:<text>```: Add text to layer. ex: ```t:JS```
 - ```i:<src or common>```: Add image to layer. Recommend square transpart .png. See [Common Images](https://raw.githubusercontent.com/yieme/logoit/master/images.json) for list
-- ```fa:<name>[,name...]>```: Add [Font Awesome Icon](https://fontawesome.io/icons/) to layer
+- ```fa:<name>[,name...]>```: Add [Font Awesome Icon](http://fortawesome.github.io/Font-Awesome/icons/) to layer
 - ```dev:<name>[,name...]>```: Add [Devicon](https://vorillaz.github.io/devicons/#/cheat) to layer
 - ```fi:<name>[,name...]>```: Add [Foundation Icon](http://zurb.com/playground/foundation-icon-fonts-3) to layer
 - ```flag:<country_code>```: Add [Flag Icon](https://lipis.github.io/flag-icon-css/) to layer
