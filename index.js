@@ -6,9 +6,11 @@
     , fs           = require('fs')
     , _            = require('lodash')
     , S            = require('string')
-    , SEPERATOR    = '--'
-    , SELF_LOGO    = 'b:yellow--gf:Lobster--f:b--mc:100--o:0.3--p:0--i:nodejs--tc:50--o:1--p:5--fa:photo--bc:35--p:10--LogoIt--/logoit.png'
-    , INVALID_IMG  = 'b:white--tc:46--p:12--fa:picture-o--bc:14--p:10--gf:Share Tech Mono--Invalid Image--tc:70--p:1--c:990000--o:0.6--fa:ban--/img.png'
+    , SEPERATOR    = '~'
+    , ESCAPE_SEP   = '~~'
+    , ESCAPE_CODE  = '`@`'
+    , SELF_LOGO    = 'b:yellow~gf:Lobster~f:b~mc:100~o:0.3~p:0~i:nodejs~tc:50~o:1~p:5~fa:photo~bc:35~p:10~LogoIt~/logoit.png'
+    , INVALID_IMG  = 'b:white~tc:46~p:12~fa:picture-o~bc:14~p:10~gf:Share Tech Mono~Invalid Image~tc:70~p:1~c:990000~o:0.6~fa:ban~/img.png'
     , SIZE         = 256
     , MAXSIZE      = 1024
     , PADDING      = 5
@@ -29,7 +31,8 @@
   function build_image(req, res, next) {
     var requrl   = req.url.substr(1)
       , url      = (requrl == 'logoit.png') ? SELF_LOGO : requrl
-      , part     = S(url).replaceAll('%20', ' ').s.split(SEPERATOR)
+      , cleanUrl = S(url).replaceAll(ESCAPE_SEP, ESCAPE_CODE).s
+      , part     = S(cleanUrl).replaceAll('%20', ' ').s.split(SEPERATOR)
       , isImage  = url.indexOf('.png') > 1 || url.indexOf('.jpg') > 1
       , state    = {
           size   : SIZE,
@@ -208,7 +211,7 @@
             recalc()
           }
         break
-        default: state.text = S(op).replaceAll('%20', ' ').s
+        default: state.text = S(op).replaceAll(ESCAPE_CODE, SEPERATOR).s
       }
     }
 

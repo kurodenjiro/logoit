@@ -5,7 +5,7 @@ Logo Image Builder
 # Install
 
 ```sh
-npm install logoit --save
+npm install logoit ~save
 ```
 
 # Run server
@@ -28,31 +28,33 @@ Logos are built up as a series of layers each with an increased ```z-index```
 
 <img src="https://raw.githubusercontent.com/yieme/logoit/master/img/logo.jpg" align="right" width="80" border="0">
 
-[LogoIt](http://localhost:3000/b:yellow--gf:Lobster--f:b--mc:100--o:0.3--p:0--i:nodejs--tc:50--o:1--p:5--fa:photo--bc:35--p:10--LogoIt--/logoit.png)
+[LogoIt](http://localhost:3000/b:yellow~gf:Lobster~f:b~tc:50~o:1~p:5~fa:photo~bc:35~p:10~LogoIt~/logoit.png)
 
 ```
-http://localhost:3000/b:yellow--gf:Lobster--f:b--mc:100--o:0.3--p:0--i:nodejs--tc:50--o:1--p:5--fa:photo--bc:35--p:10--LogoIt--/logoit.png
+http://localhost:3000/b:yellow~gf:Lobster~f:b~mc:100~o:0.3~p:0~i:nodejs~tc:50~o:1~p:5~fa:photo~bc:35~p:10~LogoIt~/logoit.png
 ```
 <img src="https://raw.githubusercontent.com/yieme/logoit/master/img/invalid_image.png" align="right" width="80" border="0">
 
-[Invalid Image](http://localhost:3000/b:white--tc:46--p:12--fa:picture-o--bc:14--p:10--gf:Share%20Tech%20Mono--Invalid%20Image--tc:70--p:1--c:990000--o:0.6--fa:ban--/img.png)
+[Invalid Image](http://localhost:3000/b:white~tc:46~p:12~fa:picture-o~bc:14~p:10~gf:Share%20Tech%20Mono~Invalid%20Image~tc:70~p:1~c:990000~o:0.6~fa:ban~/img.png)
 
 ```
-http://localhost:3000/b:white--tc:46--p:12--fa:picture-o--bc:14--p:10--gf:Share Tech Mono--Invalid Image--tc:70--p:1--c:990000--o:0.6--fa:ban--/img.png
+http://localhost:3000/b:white~tc:46~p:12~fa:picture-o~bc:14~p:10~gf:Share Tech Mono~Invalid Image~tc:70~p:1~c:990000~o:0.6~fa:ban~/img.png
 ```
 
 <img src="https://raw.githubusercontent.com/yieme/logoit/master/img/not_found.png" align="right" width="80" border="0">
 
-[Not Found](http://localhost:3000/p:10--tc:60--fa:frown-o--bc:15--Not%20Found--/img.png)
+[Not Found](http://localhost:3000/p:10~tc:60~fa:frown-o~bc:15~Not%20Found~/img.png)
 
 ```
-http://localhost:3000/p:10--tc:60--fa:frown-o--bc:15--Not Found--/img.png
+http://localhost:3000/p:10~tc:60~fa:frown-o~bc:15~Not Found~/img.png
 ```
 
-CDNall
+<img src="https://raw.githubusercontent.com/yieme/logoit/master/img/cdnall.png" align="right" width="80" border="0">
+
+[CDN All](http://localhost:3000/bc:49~c:navy~fa:download~tc:49~fa:globe~/cdnall.png)
 
 ```
-http://localhost:3000/bc:49--c:navy--fa:download--tc:49--fa:globe--/cdnall.png
+http://localhost:3000/bc:49~c:navy~fa:download~tc:49~fa:globe~/cdnall.png
 ```
 
 ## Options
@@ -92,6 +94,7 @@ http://localhost:3000/bc:49--c:navy--fa:download--tc:49--fa:globe--/cdnall.png
 - ```b```: ```fw:bold```
 - ```i```: ```fs:italic```
 
+### to include ```~``` in text use ```~~```
 
 ## Common Images
 
