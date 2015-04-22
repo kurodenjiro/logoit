@@ -29,10 +29,12 @@ app.use(function(req, res, next) {
 })
 
 app.use(express.static(cwd + '/public')) */
+
 app.use(logoImg)
 
-app.get('*', function(req, res){
-  req.url = '/p:10/tc:60/fa:frown-o/bc:15/Not Found/logoit.png'
+app.get('*', function(req, res, next){
+  console.log(req.url + ' not found')
+  req.url = '/p:10&&tc:60&&fa:frown-o&&bc:15&&Not Found&&/img.png'
   res.status(404)
   logoImg(req, res)
 })
