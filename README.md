@@ -11,7 +11,7 @@ npm install logoit --save
 # Run server
 
 ```sh
-npm run-script serve
+npm start
 ```
 
 # Usage
