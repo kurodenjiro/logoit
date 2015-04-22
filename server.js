@@ -22,6 +22,9 @@ app.use(function(req, res, next) {
   next()
 })
 
+app.get('/favicon.ico', function(req, res) {
+  res.status(404)
+})
 /*app.get('/', function(req, res) {
   var page = template.render(pkg)
 //  res.set('Content-Type', 'text/html')

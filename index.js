@@ -219,6 +219,7 @@
       state.padding = paddingCalc(size, state.pct)
       recalc()
     }
+    newLayer('mc', 100)
     for (var i=0; i < part.length; i++) {
       add(part[i])
     }
