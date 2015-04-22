@@ -1,4 +1,4 @@
-# LogoIt <img src="https://raw.githubusercontent.com/yieme/logoit/master/logo.jpg" align="right" height="185" border="0">
+# LogoIt <img src="https://raw.githubusercontent.com/yieme/logoit/master/img/logo.jpg" align="right" height="185" border="0">
 
 Logo Image Builder
 
@@ -26,12 +26,33 @@ Logos are built up as a series of layers each with an increased ```z-index```
 
 ## Example
 
-<img src="https://raw.githubusercontent.com/yieme/logoit/master/logo.jpg" align="right" height="64" border="0">
+<img src="https://raw.githubusercontent.com/yieme/logoit/master/img/logo.jpg" align="right" height="64" border="0">
 
 LogoIt
 
 ```
 http://localhost:3000/b:yellow&&gf:Lobster&&f:b&&mc:100&&o:0.3&&p:0&&i:nodejs&&tc:50&&o:1&&p:5&&fa:photo&&bc:35&&p:10&&LogoIt&&/logoit.png
+```
+<img src="https://raw.githubusercontent.com/yieme/logoit/master/img/invalid-image.jpg" align="right" height="64" border="0">
+
+Invalid Image
+
+```
+http://localhost:3000/b:white&&tc:46&&p:12&&fa:picture-o&&bc:14&&p:10&&gf:Share Tech Mono&&Invalid Image&&tc:70&&p:1&&c:990000&&o:0.6&&fa:ban&&/img.png
+```
+
+<img src="https://raw.githubusercontent.com/yieme/logoit/master/img/not-found.jpg" align="right" height="64" border="0">
+
+Not Found
+
+```
+http://localhost:3000/p:10&&tc:60&&fa:frown-o&&bc:15&&Not Found&&/img.png
+```
+
+CDNall
+
+```
+http://localhost:3000/bc:49&&c:navy&&fa:download&&tc:49&&fa:globe&&/cdnall.png
 ```
 
 ## Options
