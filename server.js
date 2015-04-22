@@ -8,12 +8,15 @@ var logoImg  = require('./index')
   , convar   = require('convar')
   , pkg      = convar.package
   , port     = convar('port') || 3000
-//  , cwd      = process.cwd()
-//  , fs       = require('fs')
-//  , hogan    = require("hogan.js")
-//  , index    = fs.readFileSync(cwd + '/public/index.mustache', 'utf8')
-//  , template = hogan.compile(index)
+  , cwd      = process.cwd()
+  , fs       = require('fs')
+  , hogan    = require("hogan.js")
+  , index    = fs.readFileSync(cwd + '/public/index.mustache', 'utf8')
+  , readme   = fs.readFileSync(cwd + '/README.md', 'utf8')
+  , template = hogan.compile(index)
+;
 
+pkg.readme = readme
 app.set('title', pkg.name)
 app.set('x-powered-by', pkg.name + '/' + pkg.version)
 
@@ -25,19 +28,19 @@ app.use(function(req, res, next) {
 app.get('/favicon.ico', function(req, res) {
   res.status(404)
 })
-/*app.get('/', function(req, res) {
+app.get('/', function(req, res) {
   var page = template.render(pkg)
-//  res.set('Content-Type', 'text/html')
+  res.set('Content-Type', 'text/html')
   res.send(page)
 })
 
-app.use(express.static(cwd + '/public')) */
+//app.use(express.static(cwd + '/public')) */
 
 app.use(logoImg)
 
 app.get('*', function(req, res){
   console.log(req.url + ' not found')
-  req.url = '/p:10&&tc:60&&fa:frown-o&&bc:15&&Not Found&&/img.png'
+  req.url = '/p:10--tc:60--fa:frown-o--bc:15--Not Found--/img.png'
   res.status(404)
   logoImg(req, res)
 })
