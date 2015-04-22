@@ -51,10 +51,10 @@ http://localhost:3000/p:10~tc:60~fa:frown-o~bc:15~Not Found~/img.png
 
 <img src="https://raw.githubusercontent.com/yieme/logoit/master/img/cdnall.png" align="right" width="78" border="0">
 
-[CDN All](http://localhost:3000/c:navy~tc:40~p:5~fa:globe~bc:45~dev:responsive~tc:20~p:43~fa:long-arrow-down~ml:20~p:38~fa:level-down~mr:20~p:38~fa:level-down%20fa-flip-horizontal~/cdnall.png)
+[CDN All](http://localhost:3000/c:navy~ml:20~p:35~fa:level-down~tl:25~p:20~fa:cloud-download~tc:25~c:666600~p:10~fa:cloud-download~tc:20~p:34~fa:long-arrow-down~tr:25~c:006666~p:20~fa:cloud-download~mr:20~p:35~fa:level-down%20fa-flip-horizontal~bc:45~c:660000~p:8~dev:responsive~/cdnall.png)
 
 ```
-http://localhost:3000/c:navy~tc:40~p:5~fa:globe~bc:45~dev:responsive~tc:20~p:43~fa:long-arrow-down~ml:20~p:38~fa:level-down~mr:20~p:38~fa:level-down%20fa-flip-horizontal~/cdnall.png
+http://localhost:3000/c:navy~ml:20~p:35~fa:level-down~tl:25~p:20~fa:cloud-download~tc:25~c:666600~p:10~fa:cloud-download~tc:20~p:34~fa:long-arrow-down~tr:25~c:006666~p:20~fa:cloud-download~mr:20~p:35~fa:level-down%20fa-flip-horizontal~bc:45~c:660000~p:8~dev:responsive~/cdnall.png
 ```
 
 ## Options
