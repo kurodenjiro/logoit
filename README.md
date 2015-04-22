@@ -24,7 +24,7 @@ Logos are built up as a series of layers each with an increased ```z-index```
 - ```layer```: layer details
 - ```format```: currently only ```.png``` is supported
 
-## Example
+## Examples
 
 <img src="https://raw.githubusercontent.com/yieme/logoit/master/img/logo.jpg" align="right" width="64" border="0">
 
