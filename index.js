@@ -192,6 +192,11 @@
           fi = fi.join(' fi-')
           state.fi = '<i class="fi fi-' + fi + '"></i>'
         break
+        case 'im':
+          var im = param.split(',')
+          im = im.join(' icon-')
+          state.im = '<i class="icon-' + im + '"></i>'
+        break
         case 'i':
           if (images[param]) param = images[param]
           state.img = '<img src="'+param+'" height="'+state.height+'" width="'+state.height+'">'

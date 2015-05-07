@@ -2,6 +2,8 @@
 // Basic js
 'use strict';
 
+console.log('cwd:', cwd)
+
 var logoImg  = require('./index')
   , express  = require('express')
   , app      = express()
@@ -28,15 +30,16 @@ app.use(function(req, res, next) {
 app.get('/favicon.ico', function(req, res) {
   res.status(404)
 })
+
 app.get('/', function(req, res) {
   var page = template.render(pkg)
   res.set('Content-Type', 'text/html')
   res.send(page)
 })
 
-//app.use(express.static(cwd + '/public')) */
-
 app.use(logoImg)
+
+app.use(express.static('public'))
 
 app.get('*', function(req, res){
   console.log(req.url + ' not found')

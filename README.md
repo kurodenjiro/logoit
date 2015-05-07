@@ -86,6 +86,7 @@ http://localhost:3000/c:navy~ml:20~p:35~fa:level-down~tl:25~p:20~fa:cloud-downlo
 - ```fi:<name>[,name...]>```: Add [Foundation Icon](http://zurb.com/playground/foundation-icon-fonts-3) to layer
 - ```flag:<country_code>```: Add [Flag Icon](https://lipis.github.io/flag-icon-css/) to layer
 - ```md:<name>```: Add [Material Design Icon](https://zavoloklom.github.io/material-design-iconic-font/icons.html) to layer
+- ```im:<code>```: Add [IcoMoon](https://icomoon.io/#preview-free) icone to layer, note these require IcoMoon codes
 - ```gf:<name>```: Select [Google Font](https://www.google.com/fonts). Case sensitive, ex: ```Logster```
 - ```i:<img_src>```: Add image. Ex: ```i:http://domain.com/sample.png```
 
