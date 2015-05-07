@@ -1,6 +1,6 @@
 {
   "name": "logoIt",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Logo Image Builder",
   "main": "index.js",
   "scripts": {
